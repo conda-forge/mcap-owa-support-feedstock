@@ -1,5 +1,5 @@
 {% set name = "mcap-owa-support" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mcap_owa_support-{{ version }}.tar.gz
-  sha256: e84f577c5ed4e1b3765648f5d189b8e718e282b7aa413448a42b173f6242491b
+  sha256: def10f6e77f8e4208988d94c62d2339771d83b4a0ec1041191177f0f89401b9d
 
 build:
   noarch: python
